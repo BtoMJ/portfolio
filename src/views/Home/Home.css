@@ -1,0 +1,36 @@
+.navbar-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction h1{
+    font-size: 5rem;
+}
+
+.introduction p{
+    font-size: 2rem;
+}
+
+.loading-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000070;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 11;
+}
