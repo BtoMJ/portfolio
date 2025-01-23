@@ -7,6 +7,7 @@
 body{
   font-family: "Poppins", serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
 }
 
 
@@ -25,4 +26,11 @@ body{
     animation: logo-spin infinite 20s linear;
   }
 }
+
+
+
+
+
+
+
 

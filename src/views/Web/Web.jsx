@@ -1,4 +1,5 @@
 import NavBar from '../../components/NavBar/Navbar.jsx';
+import Item from '../../components/Item/Item.jsx';
 import './Web.css';
 
 const Web = () => {
@@ -11,7 +12,24 @@ const Web = () => {
             </div>
             
             <div className="web-container">
-                web
+                <Item 
+                    title = "Búsqueda de Películas"
+                    description = " Sitio para buscar películas y series por nombre."
+                    photo = "web1"
+                    type = {1}
+                    />
+                <Item 
+                    title = "Búsqueda de Películas"
+                    description = " Sitio para buscar películas y series por nombre."
+                    photo = "web1"
+                    type = {2}
+                />
+                <Item 
+                    title = "Búsqueda de Películas"
+                    description = " Sitio para buscar películas y series por nombre."
+                    photo = "web1"
+                    type = {1}
+                />
             </div>
 
         </>
