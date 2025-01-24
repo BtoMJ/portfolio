@@ -17,6 +17,11 @@
 
 .logo-container img{
     width: 140px;
+    transition: .3s all ease-in-out;
+}
+
+.logo-container img:hover{
+    transform: scale(1.1);
 }
 
 .type-work,
@@ -49,6 +54,12 @@
     color: #181818;
 }
 
+.social-container a{
+    color: #181818;
+    font-size: 1.5rem;
+    
+}
+
 .social-container .icon-social-1{
     font-size: 1.5rem;
     margin-left: 20px;
@@ -58,10 +69,13 @@
 
 .social-container .icon-social-2{
     font-size: 1.1rem;
+    position: relative;
     margin-left: 20px;
+    top: -3px;
     cursor: pointer;
     transition: .5s all ease-in-out;
 }
+
 .social-container .icon-social-1:hover,
 .social-container .icon-social-2:hover{
     color: #18181850;

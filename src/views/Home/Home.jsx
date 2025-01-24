@@ -33,13 +33,12 @@ const Home = () => {
       </div>
       <h1>Hola ! Soy Daniel</h1>
       <p className='about-me'>
-        Me gusta transformar ideas en experiencias visuales y digitales únicas, 
+        Me gusta transformar ideas en experiencias visuales y digitales únicas,  <br />
         con creatividad y funcionalidad en perfecta armonía.
       </p>
 
       <p className='about-me'>
-        Descubre cómo puedo llevar tus ideas al siguiente nivel. 
-        Explora mi portafolio y ponte en contácto conmigo para dar vida a tus proyectos. <br />
+        Puedo llevar tus ideas al siguiente nivel para dar vida a tus proyectos. <br />
         ¡Estoy listo para crear contigo!
       </p>
      </div>

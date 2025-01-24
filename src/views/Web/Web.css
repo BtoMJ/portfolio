@@ -7,3 +7,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.web-container h2{
+    color: #272727;
+}
+
+.web-container .web-text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #19191990;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

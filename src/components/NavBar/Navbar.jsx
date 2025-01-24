@@ -18,10 +18,18 @@ const NavBar = ( { active } ) => {
                 <Link to="/"><img src={logo} alt='logo-dev' /></Link> 
             </div>
             <div className='social-container'>
-                <FaBehance className='icon-social-1'/>
-                <FaFacebookF className='icon-social-2'/>
-                <FaInstagram className='icon-social-2'/>
-                <FaLinkedinIn className='icon-social-1'/>
+                <a href="https://www.behance.net/danielMena17" target="_blank">
+                    <FaBehance className='icon-social-1'/>
+                </a>
+                <a href="" target="_blank">
+                    <FaFacebookF className='icon-social-2'/>
+                </a>
+                <a href="https://www.instagram.com/danielo_mena/" target="_blank">
+                    <FaInstagram className='icon-social-2'/>
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-mena-jaime/" target="_blank">
+                    <FaLinkedinIn className='icon-social-1'/>
+                </a>
             </div>
          
         </div>

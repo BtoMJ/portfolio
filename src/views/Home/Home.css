@@ -73,7 +73,7 @@
     background: #ffffff;  
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);   */
     width: 100vw;
-    height:100vh;
+    height: 89vh;
     position: absolute;
     overflow: hidden;
     z-index: -10;
@@ -125,7 +125,7 @@
 }
 
 .circles li:nth-child(4){
-    left: 40%;
+    left: 4%;
     width: 60px;
     height: 60px;
     animation-delay: 0s;
@@ -147,7 +147,7 @@
 }
 
 .circles li:nth-child(7){
-    left: 35%;
+    left: 30%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
@@ -170,25 +170,25 @@
 }
 
 .circles li:nth-child(10){
-    left: 5%;
-    width: 150px;
-    height: 150px;
+    left: 14%;
+    width: 120px;
+    height: 120px;
     animation-delay: 0s;
     animation-duration: 11s;
   }
   
   .circles li:nth-child(11){
-    left: 17%;
+    left: 87%;
     width: 100px;
     height: 100px;
-    animation-delay: 0s;
+    animation-delay: 1s;
     animation-duration: 11s;
   }
   
   .circles li:nth-child(12){
-    left: 55%;
-    width: 130px;
-    height: 130px;
+    left: 62%;
+    width: 120px;
+    height: 120px;
     animation-delay: 0s;
     animation-duration: 11s;
 }

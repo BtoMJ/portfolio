@@ -1,7 +1,7 @@
-import './Item.css';
+import './ItemWeb.css';
 
 
-const Item = ( { title, description, photo, type } ) => {
+const ItemWeb = ( { title, description, photo, type } ) => {
 
     return(
         <div className={`item-container-${type}`}>
@@ -17,4 +17,4 @@ const Item = ( { title, description, photo, type } ) => {
     )
 }
 
-export default Item;
+export default ItemWeb;
