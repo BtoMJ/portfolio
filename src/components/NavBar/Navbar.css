@@ -156,6 +156,10 @@
         animation: hide .1s 0s forwards;
     }
 
+    .no-scroll{
+        overflow-y: hidden;
+    }
+
 
 }
 
@@ -272,7 +276,7 @@
         position: relative;
         top: 20px;
     }
-
+    
     to{
         opacity: 1;
         position: relative;

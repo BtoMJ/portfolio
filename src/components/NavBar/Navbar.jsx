@@ -4,7 +4,6 @@ import { FaBehance, FaFacebookF, FaInstagram, FaLinkedinIn, FaBars, FaWhatsapp  
 import { Link } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import './Navbar.css';
-import { set } from "react-hook-form";
 
 const NavBar = ( { active } ) => {
 
