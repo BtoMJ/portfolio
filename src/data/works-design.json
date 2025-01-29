@@ -1,0 +1,74 @@
+[
+    {
+        "id" : "1",
+        "title" : "Lady Corvet",
+        "description" : "Diseño de poster para tienda física, toma de foto y recorte en photoshop.",
+        "photo" : "design1"
+    },
+    {
+        "id" : "2",
+        "title" : "Pirma",
+        "description" : "Diseño para góndolas de calzado en tiendas a nivel nacional",
+        "photo" : "design2"
+    },
+    {
+        "id" : "3",
+        "title" : "Auladiser",
+        "description" : "Diseño de fichas técnicas para campañas de email.",
+        "photo" : "design3"
+    },
+    {
+        "id" : "4",
+        "title" : "Reels",
+        "description" : "Agradecimiento de fin de año para estado de Whatsapp.",
+        "photo" : "design4"
+    },
+    {
+        "id" : "5",
+        "title" : "Facebook",
+        "description" : "Publicidad para estados de Facebook",
+        "photo" : "design5"
+    },
+    {
+        "id" : "6",
+        "title" : "Suelas",
+        "description" : "Catálogo de suelas, toma de fotos y recorte en photoshop.",
+        "photo" : "design6"
+    },
+    {
+        "id" : "7",
+        "title" : "Invitaciones",
+        "description" : "Diseño de invitaciones para todo tipo de eventos.",
+        "photo" : "design7"
+    },
+    {
+        "id" : "8",
+        "title" : "Revistas",
+        "description" : "Diseño de contraportada para revista deportiva, toma y recorte fotográfico.",
+        "photo" : "design8"
+    },
+    {
+        "id" : "9",
+        "title" : "Fotomantajes",
+        "description" : "Modificación de fotografía para presentar diseño antes de impresión.",
+        "photo" : "design9"
+    },
+    {
+        "id" : "10",
+        "title" : "Cartel para Eventos",
+        "description" : "Creación de cartel para taller online masivo.",
+        "photo" : "design10"
+    },
+    {
+        "id" : "11",
+        "title" : "Fotomanipulación",
+        "description" : "Recorte fotográfico y ambientación montada en photoshop.",
+        "photo" : "design11"
+    },
+    {
+        "id" : "12",
+        "title" : "Instragram",
+        "description" : "Toma y recorte fotográfico para publicación de intragram.",
+        "photo" : "design12"
+    }
+]

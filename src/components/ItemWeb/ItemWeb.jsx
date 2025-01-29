@@ -6,7 +6,7 @@ const ItemWeb = ( { title, description, photo, type } ) => {
     return(
         <div className={`item-container-${type}`}>
             <div className='photo-container'>
-                <img src={`src/assets/web/${photo}.jpg`} alt={`imagen ${photo}`} />
+                <img src={`src/assets/web/${photo}.jpg`} alt={`imagen-${photo}`} />
             </div>
             <div className='data-container'>
                 <h3>{title}</h3>

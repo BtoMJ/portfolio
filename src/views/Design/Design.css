@@ -1,5 +1,30 @@
 .design-container{
-    width: 60vw;
+    width: 75vw;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-container h2{
+    color: #272727;
+}
+
+.design-container .design-text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #19191990;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.design-container .works{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
