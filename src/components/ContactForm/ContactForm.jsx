@@ -7,6 +7,8 @@ const ContactForm = () => {
 
     const handleClearClick = () => {
         reset();
+        const inputFocus = document.getElementById("name");
+        inputFocus.focus()
     }
 
     const handleSubmitForm = (data) => {
@@ -19,7 +21,7 @@ const ContactForm = () => {
         <div className="contact-form-container">
             
             <form onSubmit={handleSubmit(handleSubmitForm)}>
-                <label>
+                <label id="name">
                     Nombre
                     <input {...register('name', { required:true })}  />
                 </label>
