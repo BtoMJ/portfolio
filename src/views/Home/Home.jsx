@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       <h1>Hola ! Soy Daniel</h1>
       <p className='about-me'>
-        Me gusta transformar ideas en experiencias visuales y digitales únicas,  <br />
+        Me gusta transformar ideas en experiencias digitales únicas,  <br />
         con creatividad y funcionalidad en perfecta armonía.
       </p>
 

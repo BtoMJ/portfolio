@@ -3,7 +3,7 @@
     .contact-container{
         width: 90vw;
         margin: 0 auto;
-        margin-top: 15px;
+        margin-top: calc(7%);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,7 +30,7 @@
     .contact-container{
         width: 90vw;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: calc(7vh);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -56,7 +56,62 @@
     .contact-container{
         width: 90vw;
         margin: 0 auto;
+        margin-top: calc(10%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-container h2{
+        color: #272727;
+        text-align: center;
         margin-top: 30px;
+    }
+    
+    .contact-container .contact-text{
+        font-size: 1.3rem;
+        text-align: center;
+        color: #19191990;
+        margin-top: 10px;
+    }
+
+}
+
+@media (481px <= width <= 768px) and ( orientation: landscape){
+
+    .contact-container{
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: calc(5%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-container h2{
+        color: #272727;
+        text-align: center;
+        margin-top: -30px;
+        font-size: 1.5rem;
+    }
+    
+    .contact-container .contact-text{
+        font-size: 1.1rem;
+        text-align: center;
+        color: #19191990;
+        margin-top: 10px;
+    }
+
+}
+
+@media (769px <= width <= 1024px){
+
+    .contact-container{
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: calc(19%);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -78,21 +133,12 @@
 
 
 }
-
-@media (769px <= width <= 1024px){
-
-}
-
-@media (1025px <= width <= 1200px){
-
-}
-
-@media (1201px <= width <= 1920px){
+@media (769px <= width <= 1024px) and ( orientation: landscape ){
 
     .contact-container{
-        width: 60vw;
+        width: 90vw;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: calc(-5%);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -101,10 +147,68 @@
     
     .contact-container h2{
         color: #272727;
+        text-align: center;
+        margin-top: 30px;
     }
     
     .contact-container .contact-text{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #19191990;
+        margin-top: 10px;
+    }
+
+}
+
+@media (1025px <= width <= 1200px){
+
+}
+
+@media (1025px <= width <= 1200px) and ( orientation: landscape ){
+
+    .contact-container{
+        width: 60vw;
+        margin: 0 auto;
+        margin-top: calc(8%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-container h2{
+        font-size: 2rem;
+        color: #272727;
+    }
+    
+    .contact-container .contact-text{
+        font-size: 1.3rem;
+        text-align: center;
+        color: #19191990;
+        margin-top: 10px;
+    }
+
+}
+
+@media (1201px <= width <= 1920px){
+
+    .contact-container{
+        width: 60vw;
+        margin: 0 auto;
+        margin-top: calc(3%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-container h2{
+        font-size: 2rem;
+        color: #272727;
+    }
+    
+    .contact-container .contact-text{
+        font-size: 1.3rem;
         text-align: center;
         color: #19191990;
         margin-top: 10px;
