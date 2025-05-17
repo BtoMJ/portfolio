@@ -7,7 +7,7 @@ const ItemWeb = ( { photo, title, description, stack, url } ) => {
         <div className='item-container'>
 
             <div className='photo-container'>
-                <img src={`src/assets/web/${photo}.jpg`} alt={`imagen-${photo}`} />
+                <img src={`/public/web/${photo}.jpg`} alt={`imagen-${photo}`} />
             </div>
             <div className='data-container'>
                 <h3>{title}</h3>
