@@ -14,22 +14,21 @@ import './ItemDesign.css';
 
 const ItemDesign = ( { id, title, description, photo } ) => {
 
-    const img = [
-                    0, design1, design2, design3,design4, design5, design6,
-                    design7, design8, design9,design10, design11, design12,
-                ]
+    const imgArray = [
+                        0, design1, design2, design3, design4, design5, design6,
+                        design7, design8, design9, design10, design11, design12,
+                     ]
                 
-    const yes = img[id] ;
+    const img = imgArray[id] ;
 
     return(
         <div className="item-design-container" key={id}>
             <div className="info">
-                <h3>{title} : {id} </h3>
+                <h3>{title}</h3>
                 <p className="design-description">{description}</p>
             </div>
             <div className="img">
-                {/* <img src={`src/assets/design/${photo}.jpg`} alt={`imagen-${photo}`} /> */}
-                <img src={yes} alt={`imagen-${photo}`} />
+                <img src={img} alt={`imagen-${photo}`} />
             </div>
     </div>
     )

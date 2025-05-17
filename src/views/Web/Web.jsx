@@ -21,7 +21,7 @@ const Web = () => {
                     {
                         webWork && webWork.map((item) => 
                                 <ItemWeb 
-                                key = {item.id}
+                                id = {item.id}
                                 title = {item.title}
                                 description = {item.description}
                                 photo = {item.photo}

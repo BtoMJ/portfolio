@@ -1,6 +1,6 @@
 [
     {   
-        "id" : "1",
+        "id" : 1,
         "title" : "Agenda",
         "description" : "Aplicación web de clientes. Control y seguimiento por venta.",
         "photo" : "web1",
@@ -8,66 +8,66 @@
         "url":"http://www.google.com"
     },
     {
-        "id" : "2",
+        "id" : 2,
         "title" : "Eventos de Ticket Master",
         "description" : "Sitio para buscar eventos próximos en México.",
-        "photo" : "web1",
+        "photo" : "web2",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "3",
+        "id" : 3,
         "title" : "Tarjeta de Presentación Digital",
         "description" : "Sin papel y para compartir por medios digitales.",
-        "photo" : "web1",
+        "photo" : "web3",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "4",
+        "id" : 4,
         "title" : "Buscador de Películas",
         "description" : "Sitio para buscar películas y series por nombre.",
-        "photo" : "web1",
+        "photo" : "web4",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "5",
+        "id" : 5,
         "title" : "Tienda en línea",
         "description" : "Sitio para buscar películas y series por nombre.",
-        "photo" : "web1",
+        "photo" : "web5",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "6",
+        "id" : 6,
         "title" : "Reserva de Hospedaje",
         "description" : "Sitio para buscar películas y series por nombre.",
-        "photo" : "web1",
+        "photo" : "web6",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "7",
+        "id" : 7,
         "title" : "Chat",
         "description" : "Envío de mensajes con tecnología websockets.",
-        "photo" : "web1",
+        "photo" : "web7",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "8",
+        "id" : 8,
         "title" : "Tienda de Sombreros",
         "description" : "Landing page + tienda en línea (en proceso).",
-        "photo" : "web1",
+        "photo" : "web8",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     },
     {
-        "id" : "9",
+        "id" : 9,
         "title" : "Villas de lujo Ibiza",
         "description" : "Sitio de reserva de hospedaje de lujo en Ibiza.",
-        "photo" : "web1",
+        "photo" : "web9",
         "stack": "JavaScript, React, HTML, CSS",
         "url":"http://www.google.com"
     }

@@ -1,13 +1,28 @@
+import web1 from '../../assets/web/web1.png';
+import web2 from '../../assets/web/web2.png';
+import web3 from '../../assets/web/web4.jpg';
+import web4 from '../../assets/web/web4.jpg';
+import web5 from '../../assets/web/web4.jpg';
+import web6 from '../../assets/web/web4.jpg';
+import web7 from '../../assets/web/web4.jpg';
+import web8 from '../../assets/web/web8.png';
+import web9 from '../../assets/web/web9.png';
 import './ItemWeb.css';
 
 
-const ItemWeb = ( { photo, title, description, stack, url } ) => {
+const ItemWeb = ( { id, photo, title, description, stack, url } ) => {
+
+    const imgArrayWeb = [
+                            0, web1, web2, web3, web4, web5, web6, web7, web8, web9
+                        ]
+                    
+    const imgWeb = imgArrayWeb[id] ;
 
     return(
-        <div className='item-container'>
+        <div className='item-container' key={id}>
 
             <div className='photo-container'>
-                <img src={`src/assets/web/${photo}.jpg`} alt={`imagen-${photo}`} />
+                <img src={imgWeb} alt={`imagen-${photo}`} />
             </div>
             <div className='data-container'>
                 <h3>{title}</h3>
@@ -16,16 +31,6 @@ const ItemWeb = ( { photo, title, description, stack, url } ) => {
                 <a className='link' href={url} target='_blank'>visitar</a>
             </div>
 
-{/* 
-            <div className='photo-container'>
-                <img src={`src/assets/web/${photo}.jpg`} alt={`imagen-${photo}`} />
-            </div>
-            <div className='data-container'>
-                <h3>{title}</h3>
-                <p className='description'>{description}</p>
-                <a className='link' href='http://www.google.com' target='_blank'>visitar</a>
-            </div>
-             */}
         </div> 
     )
 }
