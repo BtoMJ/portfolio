@@ -26,7 +26,7 @@ const Design = () => {
                     {
                         designWork && designWork.map((item) => 
                              <ItemDesign 
-                                key = {item.id}
+                                id = {item.id}
                                 title = {item.title}
                                 description = {item.description}
                                 photo = {item.photo}
