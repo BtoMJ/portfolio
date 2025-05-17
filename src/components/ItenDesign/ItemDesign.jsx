@@ -8,7 +8,7 @@ const ItemDesign = ( { title, description, photo } ) => {
                 <p className="design-description">{description}</p>
             </div>
             <div className="img">
-                <img src={`src/assets/design/${photo}.jpg`} alt={`imagen-${photo}`} />
+                <img src={`/public/design/${photo}.jpg`} alt={`imagen-${photo}`} />
             </div>
     </div>
     )
