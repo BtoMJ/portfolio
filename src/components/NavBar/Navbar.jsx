@@ -50,8 +50,8 @@ const NavBar = ( { active } ) => {
             </div>
 
             <div className='type-work'>
-                <p><Link to="/design" className={active === "design" ? "active" : "link"}>diseño</Link></p>
                 <p><Link to="/web" className={active === "web" ? "active" : "link"}> desarrollo</Link></p>
+                <p><Link to="/design" className={active === "design" ? "active" : "link"}>diseño</Link></p>
                 <p><Link to="/contact" className={active === "contact" ? "active" : "link"}>contacto</Link></p>
             </div>
             <div className='logo-container'>

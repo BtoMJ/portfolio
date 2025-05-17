@@ -1,5 +1,156 @@
+@media (320px <= width <= 480px) {
+
+    .web-container{
+        width: 80vw;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+}
+
+@media (481px <= width <= 767px) and ( orientation: landscape){
+
+   .web-container{
+        width: 80vw;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+ 
+}
+
+@media (768px <= width <= 1023px){
+
+    .web-container{
+        width: 95vw;
+        margin-top: -0 !important;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+
+}
+
+@media (768px <= width <= 1023px) and ( orientation: landscape ){
+
+    .web-container{
+        width: 95vw;
+        margin-top: -0 !important;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+
+}
+
+@media (1024px <= width <= 1200px){
+
+    .web-container{
+        width: 85vw;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+
+}
+
+@media (1201px <= width <= 1919px){
+
+    .web-container{
+        width: 70vw;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+
+}
+
+@media (1920px <= width <= 2600px){
+
+    .web-container{
+        width: 75svw;
+    }
+
+    .web-container h2{
+        color: #272727;
+        font-size: 2rem;
+    }
+
+    .web-container .web-text{
+        font-size: 1.2rem;
+    }
+
+    .web-container .web-works{
+        width: 100%;
+    }
+
+}
+
+
+
 .web-container{
-    width: 60vw;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -10,12 +161,20 @@
 
 .web-container h2{
     color: #272727;
+    text-align: center;
 }
 
 .web-container .web-text{
-    font-size: 1.2rem;
+    height: 50px;
     text-align: center;
     color: #19191990;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.web-container .web-works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

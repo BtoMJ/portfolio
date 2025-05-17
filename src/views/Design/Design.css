@@ -1,23 +1,145 @@
+@media (320px <= width <= 480px) {
+
+    .design-container{
+        width: 90vw;
+        padding-top: 20px;
+    }
+
+    .design-container h2{
+        font-size: 2rem;
+    } 
+
+     .design-container .design-text{
+        width: 92%;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (481px <= width <= 767px) and ( orientation: landscape){
+
+    .design-container{
+        width: 90vw;
+        padding-top: 20px;
+    }
+
+    .design-container h2{
+        font-size: 2rem;
+    } 
+
+     .design-container .design-text{
+        width: 92%;
+        font-size: 1.2rem;
+    }
+ 
+}
+
+@media (768px <= width <= 1023px){
+
+    .design-container{
+        width: 90vw;
+        padding-top: 20px;
+    }
+
+    .design-container h2{
+        font-size: 2rem;
+    }
+
+    .design-container .design-text{
+        width: 92%;
+        font-size: 1.2rem;
+    }
+   
+}
+
+@media (1024px <= width <= 1200px){
+
+    .design-container{
+        width: 75vw;
+        padding-top: 20px;
+    }
+
+    .design-container h2{
+        font-size: 2.5rem;
+    }
+
+     .design-container .design-text{
+        width: 92%;
+        font-size: 1.5rem;
+    }
+ 
+}
+
+@media (1024px <= width <= 1200px) and ( orientation: landscape ){
+
+ 
+}
+
+@media (1201px <= width <= 1919px){
+
+     .design-container{
+        width: 80vw;
+        padding-top: 20px;
+    }
+
+    .design-container h2{
+        font-size: 2rem;
+    }
+
+     .design-container .design-text{
+        width: 92%;
+        font-size: 1.2rem;
+    }
+
+    .design-container .tool-tip{
+        display: none !important;
+    }
+    
+}
+
+@media (1920px <= width <= 2600px){
+
+    .design-container{
+        width: 75vw;
+        padding-top: 30px;
+    }
+
+    .design-container h2{
+        font-size: 2.2rem;
+    }
+
+     .design-container .design-text{
+        width: 92%;
+        font-size: 1.4rem;
+    }
+
+    .design-container .tool-tip{
+        display: none !important;
+    }
+       
+}
+
+
+
 .design-container{
-    width: 75vw;
     margin: 0 auto;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
-
+    
 .design-container h2{
     color: #272727;
+    text-align: center;
 }
 
 .design-container .design-text{
-    font-size: 1.2rem;
-    text-align: center;
-    color: #19191990;
-    margin-top: 10px;
-    margin-bottom: 30px;
+   text-align: center;
+   color: #19191990;
+   margin-top: 10px;
+   margin-bottom: 30px;
 }
 
 .design-container .works{
@@ -27,4 +149,17 @@
     align-items: center ;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.design-container .tool-tip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .3;
+    font-size: 1.1rem;
+}
+
+.design-container .tool-tip img{
+    width: 17%;
+    opacity: .7;
 }

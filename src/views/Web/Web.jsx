@@ -1,12 +1,12 @@
 import NavBar from '../../components/NavBar/Navbar.jsx';
 import ItemWeb from '../../components/ItemWeb/ItemWeb.jsx';
+import webWork from '../../data/works-webs.json';
 import './Web.css';
 
 const Web = () => {
 
     return(
         <>
-
             <div className='navbar-container'>
                 <NavBar active="web"/>
             </div>
@@ -17,26 +17,24 @@ const Web = () => {
                     Sitios web funcionales, modernos y personalizados, <br/>
                     adaptados a las necesidades de cada proyecto.
                 </p>
-                <ItemWeb 
-                    title = "Búsqueda de Películas"
-                    description = " Sitio para buscar películas y series por nombre."
-                    photo = "web1"
-                    type = {1}
-                    />
-                <ItemWeb 
-                    title = "Búsqueda de Películas"
-                    description = " Sitio para buscar películas y series por nombre."
-                    photo = "web1"
-                    type = {2}
-                />
-                <ItemWeb 
-                    title = "Búsqueda de Películas"
-                    description = " Sitio para buscar películas y series por nombre."
-                    photo = "web1"
-                    type = {1}
-                />
-            </div>
+                <div className='web-works'>
+                    {
+                        webWork && webWork.map((item) => 
+                                <ItemWeb 
+                                key = {item.id}
+                                title = {item.title}
+                                description = {item.description}
+                                photo = {item.photo}
+                                stack = {item.stack}
+                                url = {item.url}
+                            />
+                        )
+                    }
 
+                </div>
+
+            
+            </div>
         </>
     )
 }

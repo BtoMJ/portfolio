@@ -1,6 +1,7 @@
 import ItemDesign from '../../components/ItenDesign/ItemDesign.jsx';
 import NavBar from '../../components/NavBar/Navbar.jsx';
 import designWork from '../../data/works-design.json';
+import click from '../../assets/design/click.gif';
 import './Design.css';
 
 const Design = () => {
@@ -17,6 +18,10 @@ const Design = () => {
                     Creaciones digitales e impresas personalizadas, <br/>
                     siempre buscando resaltar cada proyecto.
                 </p>
+                <div className='tool-tip'>
+                    <img src={click} alt='gif de click'/>
+                    Da click sobre la imagen
+                </div>
                 <div className='works'>
                     {
                         designWork && designWork.map((item) => 
