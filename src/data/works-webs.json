@@ -4,24 +4,24 @@
         "title" : "Agenda",
         "description" : "Aplicación web de clientes. Control y seguimiento por venta.",
         "photo" : "web1",
-        "stack": "JavaScript, React, HTML, CSS, React Tostify, Firebase, React Router Dom",
-        "url":"http://www.google.com"
+        "stack": "React, React Tostify, Firebase, React Router Dom",
+        "url":"https://agenda-gold-psi.vercel.app/"
     },
     {
         "id" : 2,
         "title" : "Eventos de Ticket Master",
         "description" : "Sitio para buscar eventos próximos en México.",
         "photo" : "web2",
-        "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
+        "stack": "React, Material UI, Zustand, React Hook Form",
+        "url":"https://ticketmaster-events-seven.vercel.app/"
     },
     {
         "id" : 3,
         "title" : "Tarjeta de Presentación Digital",
         "description" : "Sin papel y para compartir por medios digitales.",
         "photo" : "web3",
-        "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
+        "stack": "React, JavaScript, HTML, CSS",
+        "url":"https://tarjeta-omega.vercel.app/"
     },
     {
         "id" : 4,
@@ -29,46 +29,24 @@
         "description" : "Sitio para buscar películas y series por nombre.",
         "photo" : "web4",
         "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
+        "url":"https://movies-five-iota.vercel.app/"
     },
     {
         "id" : 5,
-        "title" : "Tienda en línea",
-        "description" : "Sitio para buscar películas y series por nombre.",
+        "title" : "Tienda en tenis urbanos",
+        "description" : "Sitio para promocionar tenis urbanos de moda.",
         "photo" : "web5",
         "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
+        "url":"https://tienda-nu-ruddy.vercel.app/"
     },
     {
         "id" : 6,
-        "title" : "Reserva de Hospedaje",
-        "description" : "Sitio para buscar películas y series por nombre.",
+        "title" : "Software de Call Center",
+        "description" : "Sitio informativo del software de administración para call centers.",
         "photo" : "web6",
         "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
-    },
-    {
-        "id" : 7,
-        "title" : "Chat",
-        "description" : "Envío de mensajes con tecnología websockets.",
-        "photo" : "web7",
-        "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
-    },
-    {
-        "id" : 8,
-        "title" : "Tienda de Sombreros",
-        "description" : "Landing page + tienda en línea (en proceso).",
-        "photo" : "web8",
-        "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
-    },
-    {
-        "id" : 9,
-        "title" : "Villas de lujo Ibiza",
-        "description" : "Sitio de reserva de hospedaje de lujo en Ibiza.",
-        "photo" : "web9",
-        "stack": "JavaScript, React, HTML, CSS",
-        "url":"http://www.google.com"
+        "url":"https://iaweave.vercel.app/"
     }
 ]
+
+
